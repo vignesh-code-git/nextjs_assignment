@@ -1,0 +1,98 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  font-family: "Inter", sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo img {
+  height: 50px;
+  margin-bottom: 5px;
+}
+
+.search {
+  flex: 1;
+  display: flex;
+  max-width: 950px;
+  max-height: 40px;
+  margin-bottom: 10px;
+}
+
+.search input {
+  flex: 1;
+  padding: 6px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 20px 0 0 20px;
+  outline: none;
+}
+
+.searchBtn {
+  padding: 8px 17px;
+  border: 1px solid #ccc;
+  border-left: none;
+  background-color: #eee;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 5px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #111;
+  font-weight: 500;
+}
+
+.username {
+  font-weight: 500;
+}
+
+.logoutBtn {
+  background-color: white;
+  
+  padding: 7px 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.cartLink {
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.cartIconWrapper {
+  position: relative;
+}
+
+.cartCount {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: #f44336; /* red badge */
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
